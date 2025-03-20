@@ -1,3 +1,4 @@
 lgg-mri-segmentation/
 .venv/
 .DS_Store
+unet.keras
