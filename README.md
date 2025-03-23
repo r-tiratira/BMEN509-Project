@@ -8,6 +8,9 @@ Members:
 - Sergiy Redko (30151178)
 - Romanard Tiratira (30142708)
 
+Topic: Develop a deep learning model to generate precise segmentation masks for brain tumours
+in MRI scans.
+
 ## Data
 
 For this project we used brain MRI dataset from kaggle.
@@ -42,3 +45,9 @@ data_dir = '/kaggle/input/lgg-mri-segmentation/kaggle_3m'
 3. Import [`segmentation.ipynb`](./segmentation.ipynb) (File > Import > Select file...).
 4. To speed up the training, we recommend enabling the acceleration (Settings > Accelerator > GPU P100). Please note, even with acceleration, this process will take around **an hour**. NOTE: your account must have a phone number verified for this option to become available.
 5. Run the notebook.
+
+## Tools and Education
+
+The primary tool used for this segmentation task is U-Net neural network. Here are some links that will allow you to quickly get up to speed with U-Net:
+- [Geeks for Geeks explanation](https://www.geeksforgeeks.org/u-net-architecture-explained/).
+- [A pretty good 10-minute video on this topic](https://www.geeksforgeeks.org/u-net-architecture-explained/).
