@@ -40,5 +40,5 @@ data_dir = '/kaggle/input/lgg-mri-segmentation/kaggle_3m'
 1. Log into [kaggle](https://www.kaggle.com/).
 2. Create new notebook.
 3. Import [`segmentation.ipynb`](./segmentation.ipynb) (File > Import > Select file...).
-4. To speed up the training, we recommend enabling the acceleration (Settings > Accelerator > GPU P100). Please note, even with acceleration, this process will take around **an hour**.
+4. To speed up the training, we recommend enabling the acceleration (Settings > Accelerator > GPU P100). Please note, even with acceleration, this process will take around **an hour**. NOTE: your account must have a phone number verified for this option to become available.
 5. Run the notebook.
