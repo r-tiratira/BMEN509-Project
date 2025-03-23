@@ -1,4 +1,13 @@
-lgg-mri-segmentation/
+# Ignore common virtual environment directories
+venv/
+.env/
 .venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore the specified project directory and other files
+lgg-mri-segmentation/
 .DS_Store
 unet.keras
